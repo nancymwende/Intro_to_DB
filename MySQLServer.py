@@ -1,5 +1,4 @@
 import mysql.connector # type: ignore
-from mysql.connector import Error # type: ignore
 
 def create_database():
     """Create the alx_book_store database if it doesn't exist."""
@@ -9,7 +8,7 @@ def create_database():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='nancymwende'  # Replace with your MySQL password
+            password='your_password'  # Replace with your MySQL password
         )
         
         if connection.is_connected():
@@ -22,7 +21,7 @@ def create_database():
             
             cursor.close()
             
-    except Error as e:
+    except mysql.connector.Error as e:
         print(f"Error while connecting to MySQL: {e}")
     
     finally:
