@@ -1,3 +1,2 @@
 # LibraryProject
-This is a basic Django project created as part of the Introduction to Django task.
-
+Basic Django project for ALX Introduction to Django task.
