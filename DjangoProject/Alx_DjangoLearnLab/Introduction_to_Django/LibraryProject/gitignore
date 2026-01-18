@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# SQLite database
+*.sqlite3
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.py[cod]
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.env
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+*.log
+*.bak
+*.swp
+*.tmp
+*.out
+*.history
+
+# Python cache
+*.cache/
